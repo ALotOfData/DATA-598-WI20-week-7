@@ -1,0 +1,15 @@
+Package: week7pkg
+Type: Package
+Title: Class activity (week 7) for Data598A
+Version: 0.1.0
+Authors@R: person("Benjamin", "Brodeur Mathieu", email="bebrodeu@uw.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6464-9747"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: In class activity for week 7 of the replication class in the data science master's at UW.
+License: MIT + file LICENSE
+URL: https://github.com/ALotOfData/DATA-598-WI20-week-7
+BugReports: https://github.com/ALotOfData/DATA-598-WI20-week-7/issues
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+RoxygenNote: 7.0.2
