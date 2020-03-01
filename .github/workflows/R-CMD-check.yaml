@@ -7,6 +7,9 @@ jobs:
   R-CMD-check:
     runs-on: macos-latest
     steps:
+      - name: Go to folder
+        shell: sh
+        run: cd week7pkg
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
       - name: Install dependencies
