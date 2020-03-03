@@ -14,6 +14,5 @@ RUN . /etc/environment \
   && sudo apt-get install libudunits2-dev -y \
   # build this compendium package
   && R -e "devtools::install('/DATA-598-WI20-week-7', dep=TRUE)" \
-  # render the manuscript into a docx, you'll need to edit this if you've
-  # customised the location and name of your main Rmd file
+  # run check on project
   && R -e "devtools::check('/DATA-598-WI20-week-7')"
